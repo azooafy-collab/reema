@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial;
+    background: #fffaf7;
+}
+
+/* الهيدر */
+.header {
+    background: #8e7dbe;
+    color: white;
+    padding: 40px;
+}
+
+/* القائمة */
+.menu {
+    background: #452770;
+    padding: 15px;
+}
+
+.menu a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* تنسيق الأقسام */
+.section {
+    padding: 50px 20px;
+}
+
+/* قسم النبذة */
+.main {
+    background: #c2dedc;
+    width: 100%;
+}
+
+/* قسم المهارات */
+.skills {
+    background: #a1bfd3;
+    width: 100%;
+}
+
+/* قسم الإنجازات */
+.gallery {
+    background: #d3a1b6;
+    width: 100%;
+}
+
+/* قسم التواصل */
+.footer {
+    background: #fff1e6;
+    width: 100%;
+    padding: 40px 20px;
+}
+
+/* الصور */
+.gallery img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid #8e7dbe;
+    border-radius: 10px;
+}
+
+/* القوائم */
+ul, ol {
+    display: inline-block;
+    text-align: right;
+}
+
+/* الزر */
+button {
+    background: #8e7dbe;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #7564a5;
+}
+
+/* الإيميل */
+.footer a {
+    color: #8e7dbe;
+    text-decoration: none;
+    font-weight: bold;
+}
